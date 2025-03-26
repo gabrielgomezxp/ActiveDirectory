@@ -14,3 +14,10 @@
 
 ![image](https://github.com/user-attachments/assets/c5fc09cb-2bc3-4c34-88a0-7fe4f8101315)
  - Step 5, we will navigate to **Active Directory Users and Computers**, right click inside of the mydomain.com folder, hit New and create two Organizational Units named **_EMPLOYEES** & **_ADMINS**.
+
+![image](https://github.com/user-attachments/assets/ca435c99-c1b2-4496-b3de-40ec53af82a9)
+ - Next we will right click inside the **_ADMINS** folder and create a user named **Jane Doe** with a log on of **jane_admin**, create a password and hit next until completed.
+
+![image](https://github.com/user-attachments/assets/631cff7b-5536-452f-9748-a0cf8eb98df0)
+ - We will now give **Jane Doe** admin permissions by right clicking **Jane Doe** in our **_ADMINS** folder and following <h4>Properties > Member Of > Add... > Enter the object names to select > Type **Domain Admins** > Check Names > OK. </h4>
+ Now our **Jane Doe** account has admin permissions.
